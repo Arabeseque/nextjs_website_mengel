@@ -6,7 +6,8 @@ import Masthead from '../components/masthead'
 import AboutUs from "../components/aboutus"
 import Works from "../components/works"
 import Skills from "../components/skills"
-// import { TileWrapper } from '../components/tile'
+import TrustedBy from "../components/trustedby"
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -21,8 +22,7 @@ const Home: NextPage = () => {
       <AboutUs />
       <Skills />
       <Works />
-      
-
+      <TrustedBy />
     </div>
   )
 }
